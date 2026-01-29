@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <header class="signup-header">
+            <h2>Signup</h2>
+        </header>
+        <main class="signup-body">
+            <form action="">
+                <div>
+                    <label for="name">Full Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Type Your Name" required>
+                    <i class="fa-solid"></i>
+                    <span id="nameError"></span>
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required>
+                    <i class="fa-solid"></i>
+                    <span id="emailError"></span>
+                </div>
+                <div>
+                    <label for="pass">Password: </label>
+                    <input type="password" name="pass" id="pass" placeholder="At least 8 Characters">
+                    <i class="fa-solid"></i>
+                    <span id="passError"></span>
+                </div>
+                <div>
+                    <input type="submit" id="submit-Btn" value="Create Account">
+                </div>
+            </form>
+        </main>
+        <footer class="signup-footer">
+            <p>Already have an accopunt? <a href="#">Login</a> </p>
+        </footer>
+    </div>
+    
+    
+    <!-- ~~~~~FONT AWESOME~~~~~ -->
+    <script src="https://kit.fontawesome.com/9ad7beacbb.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/layered-waves-haikei.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px #89c9f3, -2px -2px 5px #89c9f3;
+    border-radius: 10px;
+    padding: 20px 40px;
+    backdrop-filter: blur(10px);
+}
+
+.signup-header h2 {
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-body div {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.signup-body div i {
+    position: absolute;
+    top: 33px;
+    right: 12px;
+    color: red;
+    font-size: 22px;
+}
+
+.signup-body div i.check-color {
+    color: green;
+}
+
+.signup-body div span {
+    color: red;
+}
+
+.signup-body div label {
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.signup-body div input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.signup-body div input::placeholder {
+    color: #7d8083;
+    font-size: 16px;
+}
+
+.signup-body div input[type='submit'] {
+    color: #fff;
+    background: #3498db;
+    border: 1px solid #3498db;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.signup-body div input[type='submit']:hover {
+    color: #3498db;
+    background: #fff;
+}
+
+.signup-footer p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.signup-footer p a {
+    color: antiquewhite;
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
+
+.signup-footer p a:hover {
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+
+
+
+
